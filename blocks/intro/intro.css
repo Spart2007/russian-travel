@@ -1,0 +1,7 @@
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Inter;
+}
