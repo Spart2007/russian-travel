@@ -1,9 +1,16 @@
 .intro__list {
   max-width: 690px;
-  max-height: 90px;
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
-  padding-left: 147px;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-left: 24px;
+    marg
+  }
 }

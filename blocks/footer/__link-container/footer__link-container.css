@@ -1,0 +1,31 @@
+.footer__link-container {
+  max-width: 1184px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 106px;
+  min-height: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  padding-left: 0;
+  min-width: 500px;
+  list-style: none;
+  justify-content: space-around;
+  text-decoration: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-container {
+    margin: 0;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+}
