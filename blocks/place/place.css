@@ -9,7 +9,7 @@
   "place__title place__image"
   "place__website place__paragraph"
   ". place__paragraph";
-  grid-gap: 48px 40px; 
+  grid-gap: 48px 40px;
   color: #FFFFFF;
 
 }
@@ -18,7 +18,7 @@
   .place {
     max-width: 100%;
     padding-top: 73px;
-    grid-gap: 28px 25px; 
+    grid-gap: 28px 25px;
     height: 483px;
   }
 }
