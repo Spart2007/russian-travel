@@ -3,8 +3,6 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  max-width: 106px;
-  min-height: 18px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
