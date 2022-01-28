@@ -9,10 +9,9 @@
   line-height: 1.15;
   color: #fff;
   transition: opacity .2s linear;
-  opacity: 1;    
+  opacity: 1;
   display: flex;
   align-items: flex-end;
-  text-decoration: underline;
 }
 
 .header__lang-link:hover {
