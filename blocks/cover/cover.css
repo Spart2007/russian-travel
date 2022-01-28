@@ -2,20 +2,18 @@
   margin: 0 auto;
   margin-top: 92px;
   padding: 0 48px;
-  max-width: 1184px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     padding: 0;
-    
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     margin: 0;
-    max-width: 768px;
-    max-height: 480px;
   }
 }
