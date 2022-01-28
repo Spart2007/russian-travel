@@ -2,10 +2,16 @@
   color: white;
   list-style: none;
   text-decoration: none;
+  min-height: 56px;
+}
+.footer__link:hover {
+  opacity: .6;
 }
 
 @media screen and (max-width: 767px) {
   .footer__link  {
-    padding-top: 32px;
+    font-size: 24px;
+    line-height: 24px;
+    min-height: 56px;
     }
 }

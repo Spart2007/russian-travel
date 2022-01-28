@@ -12,16 +12,10 @@
   line-height: 1.2;
   letter-spacing: 1.5px;
 }
+
 @media screen and (max-width: 1023px) {
   .lead__subtitle {
-    max-width: 640px;
-    font-weight: normal;
-    line-height: 36px;
-}
-
-@media screen and (max-width: 319px) {
-  .lead__subtitle {
     font-size: 16px;
-    line-height: 20px; 
-  }
+    line-height: 20px;
+}
 }
