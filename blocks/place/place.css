@@ -1,9 +1,10 @@
 .place {
+  max-width: 100%;
   max-height: 660px;
   margin: 0;
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, auto-fit, 1fr);
+  grid-template-columns: repeat(2, auto-fit, minmax(460px 1fr));
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
   "place__title place__image"
@@ -16,7 +17,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
     padding-top: 73px;
     grid-gap: 28px 25px;
     height: 483px;
@@ -25,11 +26,10 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    max-width: 100%;
-    min-height: 1042px;
-    padding-top: 64px;
     display: flex;
     flex-direction: column;
+    min-height: 1042px;
+    padding-top: 64px;
     margin: 0;
   }
 }

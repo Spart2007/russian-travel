@@ -1,6 +1,7 @@
 .header__lang-link {
+  display: flex;
+  align-items: flex-end;
   max-width: 30px;
-  max-height: 28px;
   text-decoration: none;
   margin-left: 18px;
   font-size: 24px;
@@ -10,8 +11,6 @@
   color: #fff;
   transition: opacity .2s linear;
   opacity: 1;
-  display: flex;
-  align-items: flex-end;
 }
 
 .header__lang-link:hover {
@@ -21,14 +20,13 @@
 @media screen and (max-width: 767px) {
   .header__lang-link {
     max-width: 142px;
-    min-height: 42px;
+   
   }
 }
 
 @media screen and (max-width: 319px) {
   .header__lang-link {
     max-width: 22px;
-    max-height: 20px;
     font-size: 18px;
     line-height: 20px;
     text-align: right;

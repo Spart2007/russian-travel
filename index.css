@@ -2,9 +2,9 @@
 
 @import url(vendor/fonts/inter.css);
 
-@import url(../russian-travel/blocks/body.css);
+@import url(../russian-travel/blocks/body/body.css);
 
-@import url(../russian-travel/blocks/root.css);
+@import url(../russian-travel/blocks/root/root.css);
 
 @import url(../russian-travel/blocks/header/header.css);
 @import url(../russian-travel/blocks/header/__logo/header__logo.css);
@@ -32,9 +32,12 @@
 @import url(../russian-travel/blocks/place/__title/place__title.css);
 @import url(../russian-travel/blocks/place/__image/place__image.css);
 @import url(../russian-travel/blocks/place/__website/place__website.css);
-@import url(../russian-travel/blocks/place/__website/__url-heading/place__url-heading.css);
-@import url(../russian-travel/blocks/place/__website/__link/place__link.css);
+@import url(../russian-travel/blocks/place/__url-heading/place__url-heading.css);
+@import url(../russian-travel/blocks/place/__link/place__link.css);
 @import url(../russian-travel/blocks/place/__paragraph/place__paragraph.css);
+@import url(../russian-travel/blocks/place/__paragraph/__paragraph_first/place__paragraph_first.css);
+@import url(../russian-travel/blocks/place/__paragraph/__paragraph_second/place__paragraph_second.css);
+
 
 
 @import url(../russian-travel/blocks/cover/cover.css);
