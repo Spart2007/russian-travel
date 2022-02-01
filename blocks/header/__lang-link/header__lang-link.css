@@ -20,15 +20,10 @@
 @media screen and (max-width: 767px) {
   .header__lang-link {
     max-width: 142px;
-   
-  }
-}
-
-@media screen and (max-width: 319px) {
-  .header__lang-link {
     max-width: 22px;
     font-size: 18px;
     line-height: 20px;
     text-align: right;
   }
 }
+

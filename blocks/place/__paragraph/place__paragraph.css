@@ -7,22 +7,20 @@
   line-height: 163%;
   margin: 0;
  }
+.place__paragraph:first-child {
+  padding-bottom: 26px;
+}
 
  @media screen and (max-width: 1023px) {
   .place__paragraph {
     max-width: 352px;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
     padding-left: 16px;
     padding-right: 16px;
   }
