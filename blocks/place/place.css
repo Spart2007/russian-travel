@@ -1,26 +1,20 @@
 .place {
   max-width: 100%;
-  max-height: 660px;
   margin: 0;
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, auto-fit, minmax(460px 1fr));
-  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-  "place__title place__image"
-  "place__website place__paragraph"
-  ". place__paragraph";
+    "place__title place__image"
+    "place__website place__paragraphs";
   grid-gap: 48px 40px;
+  font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
-
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
     padding-top: 73px;
     grid-gap: 28px 25px;
-    height: 483px;
   }
 }
 
@@ -28,7 +22,7 @@
   .place {
     display: flex;
     flex-direction: column;
-    min-height: 1042px;
+    max-width: 100%;
     padding-top: 64px;
     margin: 0;
   }

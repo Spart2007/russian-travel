@@ -1,8 +1,15 @@
 .footer__link {
-  color: white;
   list-style: none;
   text-decoration: none;
+  padding-right: 18px;
 }
+
 .footer__link:hover {
-  opacity: .6;
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding-bottom: 32px;
+  }
 }

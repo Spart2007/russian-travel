@@ -1,6 +1,7 @@
 .footer {
   max-width: 100%;
   position: relative;
+  font-family: 'Inter', Arial, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,7 +15,6 @@
 @media screen and (max-width: 1023px) {
   .footer {
     max-width: 720px;
-    max-height: 18px;
     margin-top: 88px;
     padding: 0;
   }
@@ -22,13 +22,11 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    max-width: 168px;
-    min-height: 450px;
     flex-direction: column;
     padding-left: 16px;
     padding-bottom: 24px;
-    padding-top: 32px;
+    padding-top: 64px;
     margin: 0;
     flex-wrap: wrap;
-}
+  }
 }
