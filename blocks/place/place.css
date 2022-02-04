@@ -6,7 +6,6 @@
   grid-template-areas:
     "place__title place__image"
     "place__website place__paragraphs";
-  grid-template-columns: ;
   grid-gap: 48px 40px;
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
