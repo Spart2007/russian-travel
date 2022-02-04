@@ -1,9 +1,10 @@
 .places {
   position: relative;
-  max-width: 984px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding-left: 147px;
+  justify-content: center;
+  margin: auto;
 
 }
 
@@ -16,7 +17,6 @@
 
 @media screen and (max-width: 1023px) {
   .places {
-    max-width: 720px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -24,7 +24,6 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    max-width: 100%;
     padding: 0;
   }
 }
