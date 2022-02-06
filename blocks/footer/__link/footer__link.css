@@ -2,14 +2,5 @@
   list-style: none;
   text-decoration: none;
   color: white;
-}
-
-.footer__link:hover {
-  opacity: .8;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__link {
-    padding-bottom: 32px;
-  }
+  padding-right: 18px;
 }

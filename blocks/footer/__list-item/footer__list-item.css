@@ -1,0 +1,15 @@
+.footer__list-item {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__list-item:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list-item {
+    padding-bottom: 32px;
+  }
+}
